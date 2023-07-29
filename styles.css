@@ -1,0 +1,375 @@
+@font-face {
+    font-family: "Dream Avenue";
+    src: url(fonts/Dream-Avenue.ttf);
+}
+@font-face {
+    font-family: "Body Grotesque Fit";
+    src: url(fonts/BodyGrotesque-FitRegular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Name-Intro {
+    background-color: #222831;
+}
+.title-1 {
+	width: 100%;
+	position: relative;
+	font-family: "Dream Avenue", sans-serif;
+    font-size: 80px;
+    left: 115px;
+    top: 230px;
+    color: #00ADB5;
+}
+
+.subtitle-1 {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 115px;
+    top: 235px;
+    color: #00ADB5;
+}
+
+.reach-out-btn {
+    width: 11%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 270px;
+    top: -225px;
+    border: 2px;
+    background-color: #ffffff;
+    color: #00ADB5;;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+
+.reach-out-btn:hover {
+    background-color: #ffbb00;
+    color: white;
+ }
+
+.profile-pic {
+    position: relative;
+    width: 550px;
+    left: 650px;
+    top: -75px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.About-Me {
+    background-color: #393E46;
+    height: 777px;
+}
+
+.women-in-data {
+    position: relative;
+    width: 400px;
+    left: 100px;
+    top: 110px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.subtitle-2 {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 25px;
+    left: 850px;
+    top: -400px;
+    color: #00ADB5;
+}
+
+.title-2 {
+    width: 100%;
+    position: relative;
+	font-family: "Dream Avenue", sans-serif;
+    font-size: 80px;
+    left: 625px;
+    top: -380px;
+    color: #00ADB5;
+}
+
+.description {
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 23px;
+    left: 590px;
+    top: -330px;
+    color: #EEEEEE;
+}
+
+.Education {
+    background-color: #222831;
+    height: 777px;
+}
+
+.title-3 {
+    width: 100%;
+    position: relative;
+	font-family: "Dream Avenue", sans-serif;
+    font-size: 80px;
+    left: 115px;
+    top: 100px;
+    color: #00ADB5;
+}
+
+.year {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 600px;
+    top: 40px;
+    color: #00ADB5;
+}
+
+.subtitle-3 {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 795px;
+    top: -394px;
+    color: #00ADB5;
+}
+
+.description-3 {
+    position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 795px;
+    top: -769px;
+    color: #EEEEEE;
+}
+
+.Skills {
+    background-color: #393E46;
+    height: 777px;
+}
+
+.subtitle-4 {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 25px;
+    left: 585px;
+    top: 85px;
+    color: #00ADB5;
+}
+
+.title-4 {
+    width: 100%;
+    position: relative;
+	font-family: "Dream Avenue", sans-serif;
+    font-size: 80px;
+    left: 390px;
+    top: 100px;
+    color: #00ADB5;
+}
+
+.languages{
+    font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    color: #EEEEEE;
+    margin-block: 20px;
+    margin-left: 150px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+.progress-container {
+    height: 20px;
+    width: 400px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+  
+.progress-1 {
+    height: 20px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-2 {
+    height: 20px;
+    width: 97%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-3 {
+    height: 20px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-4 {
+    height: 20px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-5 {
+    height: 20px;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-6 {
+    height: 20px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-7 {
+    height: 20px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.progress-8 {
+    height: 20px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.Projects {
+    background-color: #393E46;
+    height: 777px;
+}
+
+.title-5 {
+    width: 100%;
+    position: relative;
+	font-family: "Dream Avenue", sans-serif;
+    font-size: 80px;
+    left: 500px;
+    top: 50px;
+    color: #00ADB5;
+}
+
+.row-3 {
+    display: flex;
+}
+
+.column-3 {
+    flex: 50%;
+}
+
+.project-links {
+    position: relative;
+    left: 40px;
+    top: 180px;
+    height: 230px;
+    /* margin: auto; */
+    border-radius: 25px;
+}
+
+.subtitle-5 {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 25px;
+    /* align-content: center; */
+    left: 90px;
+    top: 200px;
+    color: #00ADB5;
+}
+
+.description-4 {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 25px;
+    top: 210px;
+    color: #EEEEEE;
+}
+
+.Socials {
+    background-color: #00ADB5;
+    height: 777px;
+}
+
+.title-6 {
+    width: 100%;
+    position: relative;
+	font-family: "Dream Avenue", sans-serif;
+    font-size: 80px;
+    left: 700px;
+    top: 125px;
+    color: #393E46;
+}
+
+.subtitle-6 {
+    width: 100%;
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 25px;
+    left: 700px;
+    top: -240px;
+    color: #393E46;
+}
+
+.connect {
+    position: relative;
+    left: 80px;
+    top: 18px;
+    height: 600px;
+    /* margin: auto; */
+    border-radius: 25px;
+}
+
+.links {
+    position: relative;
+    width: 50px;
+    left: 1px;
+    top: 4px;
+    /* margin: auto; */
+    /* border-radius: 25px; */
+}
+
+.Top-btn {
+    /* width: 11%; */
+	position: relative;
+	font-family: "Body Grotesque Fit", sans-serif;
+    font-size: 20px;
+    left: 1250px;
+    top: -225px;
+    border: 2px;
+    background-color: #ffffff;
+    color: #00ADB5;;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+
+.Top-btn:hover {
+    background-color: #ffbb00;
+    color: white;
+}
