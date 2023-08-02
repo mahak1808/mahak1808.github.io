@@ -1,2 +1,2 @@
-# mahak1808.io
+# mahak1808.github.io
 My Portfolio Website
