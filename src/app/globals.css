@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Brand Background & Foreground */
+  --background: #f4fafd;
+  --foreground: #161d1f;
+
+  /* Surface Palette */
+  --surface: #f4fafd;
+  --surface-dim: #d4dbdd;
+  --surface-bright: #f4fafd;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #eef5f7;
+  --surface-container: #e8eff1;
+  --surface-container-high: #e2e9ec;
+  --surface-container-highest: #dde4e6;
+  --surface-variant: #dde4e6;
+
+  /* Text & On Colors */
+  --on-surface: #161d1f;
+  --on-surface-variant: #4d4633;
+  --on-background: #161d1f;
+
+  /* Primary Palette */
+  --primary: #705d00;
+  --primary-container: #ffd93d;
+  --primary-fixed: #ffe173;
+  --primary-fixed-dim: #e8c426;
+  --on-primary: #ffffff;
+  --on-primary-container: #725e00;
+
+  /* Secondary Palette */
+  --secondary: #a13d39;
+  --secondary-container: #ff847c;
+  --secondary-fixed: #ffdad7;
+  --secondary-fixed-dim: #ffb3ad;
+  --on-secondary: #ffffff;
+
+  /* Tertiary Palette */
+  --tertiary: #00687a;
+  --tertiary-container: #93e8ff;
+  --tertiary-fixed: #acedff;
+  --tertiary-fixed-dim: #68d5f0;
+  --on-tertiary: #ffffff;
+
+  /* Outline & Error */
+  --outline: #7e7761;
+  --outline-variant: #d0c6ad;
+  --error: #ba1a1a;
+  --error-container: #ffdad6;
+  --on-error: #ffffff;
+
+  /* Fonts */
+  --font-display: "Outfit", sans-serif;
+  --font-body: "Be Vietnam Pro", sans-serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+@theme inline {
+  --font-outfit: var(--font-outfit);
+  --font-vietnam: var(--font-vietnam);
+  --font-space-mono: var(--font-space-mono);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Surface mapping */
+  --color-surface: var(--surface);
+  --color-surface-dim: var(--surface-dim);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-surface-variant: var(--surface-variant);
+
+  /* On Colors mapping */
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-on-background: var(--on-background);
+
+  /* Primary mapping */
+  --color-primary: var(--primary);
+  --color-primary-container: var(--primary-container);
+  --color-primary-fixed: var(--primary-fixed);
+  --color-primary-fixed-dim: var(--primary-fixed-dim);
+  --color-on-primary: var(--on-primary);
+  --color-on-primary-container: var(--on-primary-container);
+
+  /* Secondary mapping */
+  --color-secondary: var(--secondary);
+  --color-secondary-container: var(--secondary-container);
+  --color-secondary-fixed: var(--secondary-fixed);
+  --color-secondary-fixed-dim: var(--secondary-fixed-dim);
+  --color-on-secondary: var(--on-secondary);
+
+  /* Tertiary mapping */
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-tertiary-fixed: var(--tertiary-fixed);
+  --color-tertiary-fixed-dim: var(--tertiary-fixed-dim);
+  --color-on-tertiary: var(--on-tertiary);
+
+  /* Outline & Error mapping */
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-error: var(--error);
+  --color-error-container: var(--error-container);
+  --color-on-error: var(--on-error);
+
+  /* Dots mapping */
+  --color-dot-yellow: var(--dot-yellow);
+  --color-dot-teal: var(--dot-teal);
+
+  /* Fonts mapping */
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
